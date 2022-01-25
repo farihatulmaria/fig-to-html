@@ -1,0 +1,44 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/* default css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+button {
+  background: #e76f51;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+}
+section {
+  margin: 80px 0;
+}
+/* main css */
+header {
+  background: #264653;
+}
+nav {
+  transition: 0.5s;
+  background: #264653;
+}
+nav.sticky {
+  background: #264653;
+}
+nav.sticky li a {
+  color: #000;
+}
+nav li {
+  padding: 5px 20px;
+  margin: 5px 4px;
+}
+.nav-link {
+  color: #fff !important;
+}
+.hero {
+  padding: 60px 0;
+}

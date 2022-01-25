@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* group utilities */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  @apply bg-[#264653] text-white;
+}
+nav,
+section {
+  @apply container mx-auto;
+}
+span {
+  @apply font-bold;
+}
+nav {
+  @apply flex items-center justify-end;
+}
+.main-menu li {
+  @apply inline-block p-3 m-3 capitalize;
+}
+button {
+  @apply bg-[#E76F51] capitalize rounded-md
+  px-6 py-3 font-bold text-white transition duration-600;
+}
+section {
+  @apply py-12;
+}
+.hero-content {
+  @apply leading-5;
+}
+h1,
+h2 {
+  @apply text-5xl font-bold;
+}
+h3 {
+  @apply text-2xl font-bold my-2;
+}
+.col {
+  @apply grid justify-items-center py-5;
+}
+.new {
+  @apply p-5 shadow-lg;
+}
+
+.news-content p {
+  @apply leading-5 font-light;
+}
+.news-btn {
+  @apply bg-transparent border-[#E76F51] border-2 text-[#E76F51] hover:bg-[#E76F51] hover:text-white;
+}
+.rating {
+  @apply flex space-x-5;
+}
+.fas,
+.far {
+  @apply text-[#E76F51];
+}
